@@ -10,4 +10,5 @@ Changes:
 4. CF commandline must be newer than v6.38.0 - released aug 8, 2018
 5. PCF instance must support multibuildpacks- supported since at least pcf 2.2
 
+For offline use-  need to change the environment.yml to pull from the folder location on the container
 May still need to set LD_LIBRARY_PATH and PYTHONPATH 
