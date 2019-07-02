@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: python-mbp-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: mspiering
+Implementation-Vendor-Id: io.pivotal.fe.rhardt
+Spring-Boot-Version: 1.5.9.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: io.pivotal.fe.rhardt.pythonmbpdemo.PythonMbpDemoApplicati
+ on
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_66
+Implementation-URL: http://projects.spring.io/spring-boot/python-mbp-d
+ emo/
+

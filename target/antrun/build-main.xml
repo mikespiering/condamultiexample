@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="/Users/mspiering/code/multitest/mbp-conda-vendor/NEW/mbp-conda-vendor/target/python-mbp-demo-0.0.1-SNAPSHOT.jar" compress="false" update="yes">
+    <zipfileset includes="multi-buildpack.yml" dir="."/>
+    <zipfileset includes="environment.yml" dir="."/>
+    <zipfileset includes="index.py" dir="."/>
+    <zipfileset includes="vendor/*" dir="."/>
+  </zip>
+</target>
+</project>
